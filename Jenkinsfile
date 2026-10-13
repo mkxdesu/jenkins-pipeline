@@ -1,9 +1,9 @@
-pipeline{
+pipeline {
     agent any
     stages {
-        stage("hello"){
-            steps{
-                echo "my jenkins pipeline"
+        stage('Hello') {
+            steps {
+                echo 'My Jenkins Pipeline'
             }
         }
     }
