@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'youruser/simple-app'
+        IMAGE_NAME = 'mkxdesu/jenkins-pipeline'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
     stages {
